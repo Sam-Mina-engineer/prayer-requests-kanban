@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore the production build for the client
+client/build/
+
+# If you have a separate environment file in your React app
+client/.env
